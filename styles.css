@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(219, 241, 219); /*colour of page*/
+    font-family: Questrial, Arial, Helvetica, sans-serif /*Referred to Google font and includes fallback fonts */
+}
+
+h1 {
+    color: ;
+    font-family: Lexend, Arial, Helvetica, sans-serif
+}
+
+h2 {
+    color: ;
+    font-family: Lexend, Arial, Helvetica, sans-serif
+}
+
+h3 {
+    color: maroon;
+    font-family: Questrial, Arial, Helvetica, sans-serif, 
+} 
