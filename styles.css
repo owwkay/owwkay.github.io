@@ -20,10 +20,10 @@ h2 {
 
 div {   /*textboxes to organise and seperate each question/answer from eachother*/
     background-color: rgb(202, 216, 219);
-    width: 80%;
+    width: 50%;
     border:10px solid rgb(4, 100, 87);
     border-radius: 20px;
-    padding: 20px; /*amount of spacing around the content inside the textbox*/
+    padding: 19px; /*amount of spacing around the content inside the textbox*/
     margin: 20px auto; /*spacing in between each textbox*/
     display: flex;
     line-height: 1; /*Reduce the amount of space between each line of text*/
