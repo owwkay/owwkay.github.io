@@ -25,7 +25,8 @@ div {   /*textboxes to organise and seperate each question/answer from eachother
     border-radius: 20px;
     padding: 20px; /*amount of spacing around the content inside the textbox*/
     margin: 20px auto; /*spacing in between each textbox*/
-    display: flex;
+    display: inline-flex;
+    justify-content: center;
     flex-direction:column; /*Puts the content (Question, Answer) in column order*/
     align-items: center; /*fixes the bullet points being at the beginning of the box rather than next to the text*/
 
