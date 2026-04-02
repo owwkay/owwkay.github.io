@@ -1,7 +1,7 @@
 body {
     background-color: rgb(113, 164, 161); /*color of page background - referring to the opening background color of Brown's website*/
     font-family: Questrial, Arial, Helvetica, sans-serif; /*Referred to Google font and includes fallback fonts */
-    text-align: center;
+    text-align: center; /*align all text to the center*/
 }
 
 p,ul {
@@ -20,14 +20,13 @@ h2 {
 
 div {   /*textboxes to organise and seperate each question/answer from eachother*/
     background-color: rgb(202, 216, 219);
-    width: 85%;
+    width: 80%;
     border:10px solid rgb(4, 100, 87);
     border-radius: 20px;
     padding: 20px; /*amount of spacing around the content inside the textbox*/
     margin: 20px auto; /*spacing in between each textbox*/
-    display: inline-flex;
-    justify-content: center;
+    display: flex;
+    line-height: 1; /*Reduce the amount of space between each line of text*/
     flex-direction:column; /*Puts the content (Question, Answer) in column order*/
     align-items: center; /*fixes the bullet points being at the beginning of the box rather than next to the text*/
-
 }
